@@ -563,7 +563,7 @@ summary::-webkit-details-marker {
         }
 
         @media (max-width: 650px) {
-            font-weight: 700;
+            font-weight: 400;
             font-size: 12px;
             max-width: 284px;
             margin: 0 auto;
@@ -737,12 +737,17 @@ summary::-webkit-details-marker {
             top: 60px;
             right: -25px;
             padding: 10px 12px;
-            box-shadow: 0 14px 53px 0 rgba(0, 0, 0, 0.08)
+            box-shadow: 0 14px 53px 0 rgba(0, 0, 0, 0.08);
+            z-index: -1;
         }
     } 
     
     &__article-arrow:hover {
         box-shadow: 0 15px 59px 0 rgba(0, 0, 0, 0.5);
+
+        @media (max-width: 650px) {
+            box-shadow: 0 14px 53px 0 rgba(0, 0, 0, 0.08)
+        }
     }
 }
 
