@@ -729,9 +729,13 @@ summary::-webkit-details-marker {
 }
 @media (max-width: 650px) {
   .hero__tooth-img {
-    width: 27px;
+    width: 37px;
     position: absolute;
     top: -14px;
+    border-radius: 100%;
+    background-color: #fff;
+    z-index: 1;
+    border: 5px solid #ffF;
   }
 }
 .hero__article-arrow {
