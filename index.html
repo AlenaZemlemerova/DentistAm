@@ -19,15 +19,17 @@
             >
           </div>
           <div class="address">
-            <img src="img/header-map.jpg" alt="map" />
-            <p class="address__text">г. Москва, ул. Перерва д. 39</p>
+            <img class="address__map" src="img/header-map.jpg" alt="map" />
+            <p class="address__text">г.&nbsp;Москва, ул.&nbsp;Перерва д.&nbsp;39</p>
           </div>
           <div class="box-for-mobile">
             <a href="tel:89855357666" class="telephone">
-              <img class="phone-img" src="img/phone-img.svg" alt="phone" />
+              <div class="phone-border">
+                <img class="phone-img" src="img/phone-img.png" alt="phone" />
+              </div>
               <img
                 class="phone-img-mobile"
-                src="img/phone-img-mobile.svg"
+                src="img/phone-img-mobile.png"
                 alt="phone"
               />
               <div class="telephone__box-text">
@@ -72,6 +74,7 @@
       <div class="container">
         <div class="hero">
           <div class="hero__left-box">
+            <img class="background-circle" src="img/hero-circle.png" alt="background-img">
             <div class="hero__text-backgroung">
               <h1 class="hero__top">топ</h1>
               <h1 class="hero__five">5</h1>
@@ -88,7 +91,10 @@
             <div class="hero__signature-box">
               <div class="hero__signature-name">
                 <p class="hero__signature-name-text">Бабаян Давид</p>
-                <img class="user-icon" src="img/user.svg" alt="user-icon" />
+                <div class="border-icon">
+                  <img class="user-icon" src="img/user.svg" alt="user-icon" />
+                </div>
+                
               </div>
               <p class="hero__signature-one-line">Наша клиника скорее</p>
               <p class="hero__signature-two-line">гостеприимный дом,</p>
@@ -108,8 +114,8 @@
               ЦЕНТР «ДАНТИСТ»
             </h1>
             <p class="hero__text">
-              <span class="bold"
-                >Обратившись к нам, Вы можете быть уверены, что Вас обслужат
+              <span class="bold700"
+                >Обратившись к&nbsp;нам, Вы&nbsp;можете быть уверены, что Вас обслужат
                 <span class="color-main">на высшем уровне,</span></span
               >
               и все Ваши проблемы с зубами останутся в прошлом.
@@ -119,20 +125,140 @@
               <div class="hero__button-bacground"></div>
             </a>
             <div class="hero__article">
-              <img class="hero__tooth-img" src="img/hero-tooth.svg" alt="tooth" />
+              <img
+                class="hero__tooth-img"
+                src="img/hero-tooth.svg"
+                alt="tooth"
+              />
               <div class="hero__article-info">
                 <h4 class="hero__article-title">Имплантация передних зубов</h4>
                 <p class="hero__article-text">
-                  Передние зубы представлены резцами и клыками. Отличительной особенностью...
+                  Передние зубы представлены резцами и&nbsp;клыками. Отличительной
+                  особенностью...
                 </p>
-                <a class="hero__article-link hero__article-text" href="#">Читать полностью</a>
-              </div> 
-              <a href="#"><img class="hero__article-arrow" src="img/angle-right.svg" alt="arrow-right"></a>             
+                <a class="hero__article-link hero__article-text" href="#"
+                  >Читать полностью</a
+                >
+              </div>
+              <a href="#"
+                ><img
+                  class="hero__article-arrow arrow"
+                  src="img/angle-right.svg"
+                  alt="arrow-right"
+              /></a>
             </div>
-            
           </div>
         </div>
       </div>
     </main>
+    <section id="services" class="services">
+      <div class="container">
+        <div class="services-info-box">
+            <a class="services__link" href="#">Наши услуги</a>
+            <h3 class="services__title">
+            Мы предлагаем
+            <span class="color-main bold800"
+                >полное медицинское обслуживание</span
+            >
+            людям с различными проблемами со здоровьем
+            </h3> 
+        </div>
+        <div class="services__box">
+            <div class="services__card tooth">
+            <div class="card-img">
+                <img class="card-img__img1" src="img/card1.png" alt="tooth-img" />
+                <img
+                class="card-img__plus-img1"
+                src="img/plus-card1.png"
+                alt="plus-icon"
+                />
+                <div class="shadow"></div>
+            </div>
+            <div class="card-info">
+                <h4 class="service__title">Лечение зубов</h4>
+                <p class="service__text">
+                  Залог здоровья зубов&nbsp;&mdash; своевременное лечение у&nbsp;стоматолога. Важно
+                  обратиться в&nbsp;клинику...
+                </p>
+                <div class="service__links">
+                <a href="#" class="service__button">Записаться</a>
+                <a href="#" class="service__link">Читать полностью</a>
+                </div>
+            </div>
+            </div>
+            <div class="services__card tooth">
+            <div class="card-img">
+                <img class="card-img__img2" src="img/card2.png" alt="tooth-img" />
+                <img
+                class="card-img__plus-img1"
+                src="img/plus-card2.png"
+                alt="plus-icon"
+                />
+                <div class="shadow"></div>
+            </div>
+            <div class="card-info">
+                <h4 class="service__title">Удаление зубов</h4>
+                <p class="service__text">
+                  Удаление зуба&nbsp;&mdash; это простая процедура, которая давно стала рутиной для стоматологов...
+                </p>
+                <div class="service__links">
+                <a href="#" class="service__button">Записаться</a>
+                <a href="#" class="service__link">Читать полностью</a>
+                </div>
+            </div>
+            </div>
+            <div class="services__card tooth">
+            <div class="card-img">
+                <img class="card-img__img3" src="img/card3.png" alt="tooth-img" />
+                <img
+                class="card-img__plus-img1"
+                src="img/plus-card3.png"
+                alt="plus-icon"
+                />
+                <div class="shadow"></div>
+            </div>
+            <div class="card-info">
+                <h4 class="service__title">Зубная гигиена</h4>
+                <p class="service__text">
+                  Профессиональная гигиена зубов&nbsp;&mdash; очистка всех поверхностей зуба от&nbsp;налета и&nbsp;отложений...
+                </p>
+                <div class="service__links">
+                <a href="#" class="service__button">Записаться</a>
+                <a href="#" class="service__link">Читать полностью</a>
+                </div>
+            </div>
+            </div>
+            <div class="services__card tooth">
+            <div class="card-img">
+                <img class="card-img__img4" src="img/card4.png" alt="tooth-img" />
+                <img
+                class="card-img__plus-img1"
+                src="img/plus-card4.png"
+                alt="plus-icon"
+                />
+                <div class="shadow"></div>
+            </div>
+            <div class="card-info">
+                <h4 class="service__title">Имплантация зубов</h4>
+                <p class="service__text">
+                  Титановый имплант устанавливается на&nbsp;место утраченного зуба и&nbsp;играет роль его корня...
+                </p>
+                <div class="service__links">
+                <a href="#" class="service__button">Записаться</a>
+                <a href="#" class="service__link">Читать полностью</a>
+                </div>
+            </div>
+            </div>
+            <div class="services__arrows">
+                <a href="#"><img class="services__arrow-left arrow" src="img/angle-left.svg" alt="arrow-left"></a>
+                <a href="#"><img class="services__arrow-right arrow" src="img/angle-right.svg" alt="arrow-right"></a>
+                <div class="slidecontainer">
+                  <input type="range" min="1" max="6" value="1" class="slider" id="myRange">
+                </div>
+            </div>
+        </div>
+      </div>
+      
+    </section>
   </body>
 </html>
