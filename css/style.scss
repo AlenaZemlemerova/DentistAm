@@ -1187,9 +1187,13 @@ summary::-webkit-details-marker {
 }
 
 .slidecontainer {
-    position: absolute;
-    left: 150px;
-    top: 300px;
+    display: none;
+
+    @media (max-width: 650px) {
+        position: absolute;
+        left: 150px;
+        top: 300px;
+    }
 }
 
 .slider {
