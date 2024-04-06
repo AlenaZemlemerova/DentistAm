@@ -7,258 +7,437 @@
     <title>DentistAm</title>
   </head>
   <body>
-    <header id="header">
-      <div class="container">
-        <div class="header">
-          <div class="logo">
-            <a href="index.html"
-              ><img class="logo__img" src="img/logo.png" alt="logo"
-            /></a>
-            <a class="logo__link" href="index.html"
-              >Американский стоматологический центр</a
-            >
-          </div>
-          <div class="address">
-            <img class="address__map" src="img/header-map.jpg" alt="map" />
-            <p class="address__text">г.&nbsp;Москва, ул.&nbsp;Перерва д.&nbsp;39</p>
-          </div>
-          <div class="box-for-mobile">
-            <a href="tel:89855357666" class="telephone">
-              <div class="phone-border">
-                <img class="phone-img" src="img/phone-img.png" alt="phone" />
-              </div>
-              <img
-                class="phone-img-mobile"
-                src="img/phone-img-mobile.png"
-                alt="phone"
+    <div class="background">
+      <header id="header">
+        <div class="container">
+          <div class="header">
+            <div class="logo">
+              <a href="index.html"
+                ><img class="logo__img" src="img/logo.png" alt="logo"
               />
-              <div class="telephone__box-text">
-                <h4 class="telephone__title">
-                  +7 985 <span class="color-main">535 76 66</span>
-                </h4>
-                <p class="telephone__text">Звоните в любое время</p>
-              </div>
-            </a>
-            <details class="burger-menu">
-              <summary class="burger-menu__summary">
-                <svg
-                  class="ham1"
-                  viewBox="0 0 100 100"
-                  width="80"
-                  onclick="this.classList.toggle('active')"
-                >
-                  <path
-                    class="top"
-                    d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40"
-                  />
-                  <path class="middle" d="m 30,50 h 40" />
-                  <path
-                    class="bottom"
-                    d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40"
-                  />
-                </svg>
-              </summary>
-              <div class="burger-menu__content">
-                <nav class="burger-menu__link-box">
-                  <a class="burger-menu__link" href="#">link</a>
-                  <a class="burger-menu__link" href="#">link</a>
-                  <a class="burger-menu__link" href="#">link</a>
-                </nav>
-              </div>
-            </details>
-          </div>
-        </div>
-      </div>
-    </header>
-    <main id="hero">
-      <div class="container">
-        <div class="hero">
-          <div class="hero__left-box">
-            <img class="background-circle" src="img/hero-circle.png" alt="background-img">
-            <div class="hero__text-backgroung">
-              <h1 class="hero__top">топ</h1>
-              <h1 class="hero__five">5</h1>
-            </div>
-            <img class="hero__photo" src="img/hero-photo.png" alt="photo" />
-            <div class="hero__raiting">
-              <img
-                class="hero__star-img"
-                src="img/raiting.svg"
-                alt="star rating"
-              />
-              <p class="hero__star-text">в рейтинге клиник</p>
-            </div>
-            <div class="hero__signature-box">
-              <div class="hero__signature-name">
-                <p class="hero__signature-name-text">Бабаян Давид</p>
-                <div class="border-icon">
-                  <img class="user-icon" src="img/user.svg" alt="user-icon" />
-                </div>
-                
-              </div>
-              <p class="hero__signature-one-line">Наша клиника скорее</p>
-              <p class="hero__signature-two-line">гостеприимный дом,</p>
-              <p class="hero__signature-fhree-line">
-                чем официальное медицинское учреждение
-              </p>
-              <img
-                class="signature-img"
-                src="img/signature.png"
-                alt="signature"
-              />
-            </div>
-          </div>
-          <div class="hero__right-box">
-            <h1 class="hero__title">
-              <span class="color-main">АМЕРИКАНСКИЙ</span> СТОМАТОЛОГИЧЕСКИЙ
-              ЦЕНТР «ДАНТИСТ»
-            </h1>
-            <p class="hero__text">
-              <span class="bold700"
-                >Обратившись к&nbsp;нам, Вы&nbsp;можете быть уверены, что Вас обслужат
-                <span class="color-main">на высшем уровне,</span></span
+            <img class="logo__img-mobile" src="img/logo-mobile.png" alt="logo"></a>
+              <a class="logo__link" href="index.html"
+                >Американский стоматологический центр</a
               >
-              и все Ваши проблемы с зубами останутся в прошлом.
-            </p>
-            <a class="hero__button" href="#"
-              >Записаться на прием
-              <div class="hero__button-bacground"></div>
-            </a>
-            <div class="hero__article">
-              <img
-                class="hero__tooth-img"
-                src="img/hero-tooth.svg"
-                alt="tooth"
-              />
-              <div class="hero__article-info">
-                <h4 class="hero__article-title">Имплантация передних зубов</h4>
-                <p class="hero__article-text">
-                  Передние зубы представлены резцами и&nbsp;клыками. Отличительной
-                  особенностью...
-                </p>
-                <a class="hero__article-link hero__article-text" href="#"
-                  >Читать полностью</a
-                >
-              </div>
-              <a href="#"
-                ><img
-                  class="hero__article-arrow arrow"
-                  src="img/angle-right.svg"
-                  alt="arrow-right"
-              /></a>
+            </div>
+            <div class="address">
+              <img class="address__map" src="img/header-map.jpg" alt="map" />
+              <p class="address__text">
+                г.&nbsp;Москва, ул.&nbsp;Перерва д.&nbsp;39
+              </p>
+            </div>
+            <div class="box-for-mobile">
+              <a href="tel:89855357666" class="telephone">
+                <div class="phone-border">
+                  <img class="phone-img" src="img/phone-img.png" alt="phone" />
+                </div>
+                <img
+                  class="phone-img-mobile"
+                  src="img/phone-img-mobile.png"
+                  alt="phone"
+                />
+                <div class="telephone__box-text">
+                  <h4 class="telephone__title">
+                    +7 985 <span class="color-main">535 76 66</span>
+                  </h4>
+                  <p class="telephone__text">Звоните в любое время</p>
+                </div>
+              </a>
+              <details class="burger-menu">
+                <summary class="burger-menu__summary">
+                  <svg
+                    class="ham1"
+                    viewBox="0 0 100 100"
+                    width="80"
+                    onclick="this.classList.toggle('active')"
+                  >
+                    <path
+                      class="top"
+                      d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40"
+                    />
+                    <path class="middle" d="m 30,50 h 40" />
+                    <path
+                      class="bottom"
+                      d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40"
+                    />
+                  </svg>
+                </summary>
+                <div class="burger-menu__content">
+                  <nav class="burger-menu__link-box">
+                    <a class="burger-menu__link" href="#">link</a>
+                    <a class="burger-menu__link" href="#">link</a>
+                    <a class="burger-menu__link" href="#">link</a>
+                  </nav>
+                </div>
+              </details>
             </div>
           </div>
         </div>
-      </div>
-    </main>
+      </header>
+      <main id="hero">
+        <div class="container">
+          <div class="hero">
+            <div class="hero__left-box">
+              <img
+                class="background-circle"
+                src="img/hero-circle.png"
+                alt="background-img"
+              />
+              <div class="hero__text-backgroung">
+                <h1 class="hero__top">топ</h1>
+                <h1 class="hero__five">5</h1>
+              </div>
+              <img class="hero__photo" src="img/hero-photo.png" alt="photo" />
+              <div class="hero__raiting">
+                <img
+                  class="hero__star-img"
+                  src="img/raiting.svg"
+                  alt="star rating"
+                />
+                <p class="hero__star-text">в рейтинге клиник</p>
+              </div>
+              <div class="hero__signature-box">
+                <div class="hero__signature-name">
+                  <p class="hero__signature-name-text">Бабаян Давид</p>
+                  <div class="border-icon">
+                    <img class="user-icon" src="img/user.svg" alt="user-icon" />
+                  </div>
+                </div>
+                <p class="hero__signature-one-line">Наша клиника скорее</p>
+                <p class="hero__signature-two-line">гостеприимный дом,</p>
+                <p class="hero__signature-fhree-line">
+                  чем официальное медицинское учреждение
+                </p>
+                <img
+                  class="signature-img"
+                  src="img/signature.png"
+                  alt="signature"
+                />
+              </div>
+            </div>
+            <div class="hero__right-box">
+              <h1 class="hero__title">
+                <span class="color-main">АМЕРИКАНСКИЙ</span> СТОМАТОЛОГИЧЕСКИЙ
+                ЦЕНТР «ДАНТИСТ»
+              </h1>
+              <p class="hero__text">
+                <span class="bold700"
+                  >Обратившись к&nbsp;нам, Вы&nbsp;можете быть уверены, что Вас
+                  обслужат
+                  <span class="color-main">на высшем уровне,</span></span
+                >
+                и все Ваши проблемы с зубами останутся в прошлом.
+              </p>
+              <a class="hero__button main-button" href="#"
+                >Записаться на прием
+                <div class="main-button__background"></div>
+              </a>
+              <div class="hero__article">
+                <img
+                  class="hero__tooth-img"
+                  src="img/hero-tooth.svg"
+                  alt="tooth"
+                />
+                <div class="hero__article-info">
+                  <h4 class="hero__article-title">
+                    Имплантация передних зубов
+                  </h4>
+                  <p class="hero__article-text">
+                    Передние зубы представлены резцами и&nbsp;клыками.
+                    Отличительной особенностью...
+                  </p>
+                  <a class="hero__article-link hero__article-text" href="#"
+                    >Читать полностью</a
+                  >
+                </div>
+                <a href="#"
+                  ><img
+                    class="hero__article-arrow arrow"
+                    src="img/angle-right.svg"
+                    alt="arrow-right"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
     <section id="services" class="services">
       <div class="container">
         <div class="services-info-box">
-            <a class="services__link" href="#">Наши услуги</a>
-            <h3 class="services__title">
+          <a class="services__link link-block" href="#">Наши услуги</a>
+          <h3 class="services__title">
             Мы предлагаем
             <span class="color-main bold800"
-                >полное медицинское обслуживание</span
+              >полное медицинское обслуживание</span
             >
             людям с различными проблемами со здоровьем
-            </h3> 
+          </h3>
         </div>
         <div class="services__box">
-            <div class="services__card tooth">
+          <div class="services__card tooth">
             <div class="card-img">
-                <img class="card-img__img1" src="img/card1.png" alt="tooth-img" />
-                <img
+              <img class="card-img__img1" src="img/card1.png" alt="tooth-img" />
+              <img
                 class="card-img__plus-img1"
                 src="img/plus-card1.png"
                 alt="plus-icon"
-                />
-                <div class="shadow"></div>
+              />
+              <div class="shadow"></div>
             </div>
             <div class="card-info">
-                <h4 class="service__title">Лечение зубов</h4>
-                <p class="service__text">
-                  Залог здоровья зубов&nbsp;&mdash; своевременное лечение у&nbsp;стоматолога. Важно
-                  обратиться в&nbsp;клинику...
-                </p>
-                <div class="service__links">
+              <h4 class="service__title">Лечение зубов</h4>
+              <p class="service__text">
+                Залог здоровья зубов&nbsp;&mdash; своевременное лечение
+                у&nbsp;стоматолога. Важно обратиться в&nbsp;клинику...
+              </p>
+              <div class="service__links">
                 <a href="#" class="service__button">Записаться</a>
                 <a href="#" class="service__link">Читать полностью</a>
-                </div>
+              </div>
             </div>
-            </div>
-            <div class="services__card tooth">
+          </div>
+          <div class="services__card tooth">
             <div class="card-img">
-                <img class="card-img__img2" src="img/card2.png" alt="tooth-img" />
-                <img
+              <img class="card-img__img2" src="img/card2.png" alt="tooth-img" />
+              <img
                 class="card-img__plus-img1"
                 src="img/plus-card2.png"
                 alt="plus-icon"
-                />
-                <div class="shadow"></div>
+              />
+              <div class="shadow"></div>
             </div>
             <div class="card-info">
-                <h4 class="service__title">Удаление зубов</h4>
-                <p class="service__text">
-                  Удаление зуба&nbsp;&mdash; это простая процедура, которая давно стала рутиной для стоматологов...
-                </p>
-                <div class="service__links">
+              <h4 class="service__title">Удаление зубов</h4>
+              <p class="service__text">
+                Удаление зуба&nbsp;&mdash; это простая процедура, которая давно
+                стала рутиной для стоматологов...
+              </p>
+              <div class="service__links">
                 <a href="#" class="service__button">Записаться</a>
                 <a href="#" class="service__link">Читать полностью</a>
-                </div>
+              </div>
             </div>
-            </div>
-            <div class="services__card tooth">
+          </div>
+          <div class="services__card tooth">
             <div class="card-img">
-                <img class="card-img__img3" src="img/card3.png" alt="tooth-img" />
-                <img
+              <img class="card-img__img3" src="img/card3.png" alt="tooth-img" />
+              <img
                 class="card-img__plus-img1"
                 src="img/plus-card3.png"
                 alt="plus-icon"
-                />
-                <div class="shadow"></div>
+              />
+              <div class="shadow"></div>
             </div>
             <div class="card-info">
-                <h4 class="service__title">Зубная гигиена</h4>
-                <p class="service__text">
-                  Профессиональная гигиена зубов&nbsp;&mdash; очистка всех поверхностей зуба от&nbsp;налета и&nbsp;отложений...
-                </p>
-                <div class="service__links">
+              <h4 class="service__title">Зубная гигиена</h4>
+              <p class="service__text">
+                Профессиональная гигиена зубов&nbsp;&mdash; очистка всех
+                поверхностей зуба от&nbsp;налета и&nbsp;отложений...
+              </p>
+              <div class="service__links">
                 <a href="#" class="service__button">Записаться</a>
                 <a href="#" class="service__link">Читать полностью</a>
-                </div>
+              </div>
             </div>
-            </div>
-            <div class="services__card tooth">
+          </div>
+          <div class="services__card tooth">
             <div class="card-img">
-                <img class="card-img__img4" src="img/card4.png" alt="tooth-img" />
-                <img
+              <img class="card-img__img4" src="img/card4.png" alt="tooth-img" />
+              <img
                 class="card-img__plus-img1"
                 src="img/plus-card4.png"
                 alt="plus-icon"
-                />
-                <div class="shadow"></div>
+              />
+              <div class="shadow"></div>
             </div>
             <div class="card-info">
-                <h4 class="service__title">Имплантация зубов</h4>
-                <p class="service__text">
-                  Титановый имплант устанавливается на&nbsp;место утраченного зуба и&nbsp;играет роль его корня...
-                </p>
-                <div class="service__links">
+              <h4 class="service__title">Имплантация зубов</h4>
+              <p class="service__text">
+                Титановый имплант устанавливается на&nbsp;место утраченного зуба
+                и&nbsp;играет роль его корня...
+              </p>
+              <div class="service__links">
                 <a href="#" class="service__button">Записаться</a>
                 <a href="#" class="service__link">Читать полностью</a>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="services__arrows">
+            <a href="#"
+              ><img
+                class="services__arrow-left arrow"
+                src="img/angle-left.svg"
+                alt="arrow-left"
+            /></a>
+            <a href="#"
+              ><img
+                class="services__arrow-right arrow"
+                src="img/angle-right.svg"
+                alt="arrow-right"
+            /></a>
+            <div class="slidecontainer">
+              <input
+                type="range"
+                min="1"
+                max="6"
+                value="1"
+                class="slider"
+                id="myRange"
+              />
             </div>
-            <div class="services__arrows">
-                <a href="#"><img class="services__arrow-left arrow" src="img/angle-left.svg" alt="arrow-left"></a>
-                <a href="#"><img class="services__arrow-right arrow" src="img/angle-right.svg" alt="arrow-right"></a>
-                <div class="slidecontainer">
-                  <input type="range" min="1" max="6" value="1" class="slider" id="myRange">
-                </div>
-            </div>
+          </div>
         </div>
       </div>
-      
+    </section>
+    <section id="our-company">
+      <div class="container">
+        <div class="our-company">
+          <div class="our-company-left">
+            <div class="our-company-left__title-box">
+              <img
+                class="our-company-left__star"
+                src="img/star.png"
+                alt="star"
+              />
+              <h1 class="our-company-left__title">
+                <span class="color-main">Бабаян</span> Давид
+              </h1>
+              <p class="our-company-left__text">Главный врач</p>
+              <a class="our-company-left__button main-button" href="#"
+                >Записаться на прием
+                <div class="main-button__background"></div
+              ></a>
+            </div>
+            <img
+              class="our-company-left__photo"
+              src="img/our-company-photo.png"
+              alt="photo"
+            />
+          </div>
+          <div class="our-company-right">
+            <a class="our-company-right__link link-block" href="#"
+              >Наша клиника</a
+            >
+            <img
+              class="our-company-right__star"
+              src="img/star.png"
+              alt="star"
+            />
+            <h1 class="our-company-right__title">
+              <span class="color-main">«Цена под ключ»</span><br />
+              Мы работаем по удобной пациентам системе
+            </h1>
+            <p class="our-company-right__text-one">
+              Для нас очень важно, чтобы пациент до&nbsp;начала лечения понимал
+              какой будет итоговая сумма за&nbsp;все лечение, без подводных
+              камней и&nbsp;необоснованных доплат.
+            </p>
+            <p class="our-company-right__text-two">
+              Для этого мы&nbsp;сделали простой и&nbsp;понятный прайс-лист.
+              Дантист&nbsp;&mdash; одна из&nbsp;немногих клиник в&nbsp;Москве,
+              которая может предложить высокий профессионализм врачей, самые
+              современные, безопасные материалы и&nbsp;демократичные цены.
+            </p>
+            <img
+              class="our-company-right__signature"
+              src="img/signature.png"
+              alt="signature"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="employees">
+      <div class="employees">
+        <div class="container">
+          <div class="employees-top">
+            <div class="employees-top__title-box">
+              <a class="employees-top__link link-block" href="#"
+                >Наши специалисты</a
+              >
+              <h1 class="employees-top__title">
+                <span class="color-main bold800">Познакомьтесь</span> с&nbsp;нашими
+                <span class="bold800">врачами</span>
+              </h1>
+            </div>
+            <div class="employees-top__text-box">
+              <img class="employees-top__star" src="img/star.png" alt="star" />
+              <p class="employees-top__text">
+                Наш административный и&nbsp;вспомогательный персонал
+                <span class="bold800"
+                  >обладает всеми необходимыми навыками работы
+                  с&nbsp;людьми</span
+                >
+                и&nbsp;обучен, чтобы помочь вам со&nbsp;всеми медицинскими
+                вопросами
+              </p>
+            </div>
+          </div>
+          <div class="employees__cards-box">
+            <div class="employees__card">
+              <img class="employees__photo" src="img/employees1.png" alt="employees-photo" />
+              <h5 class="employees__card-name">Арзумаров Амаяк Аркадьевич</h5>
+              <p class="employees__card-profession">
+                Врач-стоматолог ортопед, гнатолог
+              </p>
+              <p class="employees__card-text">
+                Ведущий специалист клиники по&nbsp;съемному и&nbsp;несъемному протезированию
+              </p>
+              <a class="employees__card-button" href="#">Подробнее <img class="employees__card-button-arrow" src="img/arrow-button.png" alt="arrow"></a>
+            </div>
+            <div class="employees__card">
+              <img class="employees__photo" src="img/employees2.png" alt="employees-photo" />
+              <h5 class="employees__card-name">Жвания Нала Анзоровна</h5>
+              <p class="employees__card-profession">
+                Врач-стоматолог ортодонт
+              </p>
+              <p class="employees__card-text">
+                Специалист по&nbsp;ортодонтическому лечению на&nbsp;всех видах брекет-систем взрослых и&nbsp;детей с&nbsp;12&nbsp;лет
+              </p>
+              <a class="employees__card-button" href="#">Подробнее <img class="employees__card-button-arrow" src="img/arrow-button.png" alt="arrow"></a>
+            </div>
+            <div class="employees__card">
+              <img class="employees__photo" src="img/employees3.png" alt="employees-photo" />
+              <h5 class="employees__card-name">Арзуманов Андраник Аркадьевич</h5>
+              <p class="employees__card-profession">
+                Врач-стоматолог ортодонт
+              </p>
+              <p class="employees__card-text">
+                Специалист по&nbsp;ортодонтическому лечению на&nbsp;брекет-системах и&nbsp;элайнерах
+              </p>
+              <a class="employees__card-button" href="#">Подробнее <img class="employees__card-button-arrow" src="img/arrow-button.png" alt="arrow"></a>
+            </div>
+          </div>
+          <div class="employees__button-box">
+            <a class="employees__button" href="#">Загрузить еще</a>
+            <div class="employees__arrows">
+              <a href="#"
+                ><img
+                  class="employees__arrow-left arrow"
+                  src="img/angle-left.svg"
+                  alt="arrow-left"
+              /></a>
+              <a href="#"
+                ><img
+                  class="employees__arrow-right arrow"
+                  src="img/angle-right.svg"
+                  alt="arrow-right"
+              /></a>
+              <div class="employees__slidecontainer">
+                <input
+                  type="range"
+                  min="1"
+                  max="6"
+                  value="1"
+                  class="slider"
+                  id="myRange"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
