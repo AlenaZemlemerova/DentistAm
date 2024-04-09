@@ -13,14 +13,19 @@ body {
 }
 @media (max-width: 650px) {
   body {
-    width: 100vw;
-    overflow-x: hidden;
     background-color: #f5f5f5;
   }
 }
 
 a {
   text-decoration: none;
+  font-family: "Manrope", sans-serif;
+  color: #3F3F3F;
+}
+
+p, h1, h2, h3, h4, h5 {
+  font-family: "Manrope", sans-serif;
+  color: #3F3F3F;
 }
 
 .container {
@@ -68,13 +73,10 @@ a {
   }
 }
 .logo__link {
-  font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 14px;
-  color: #3F3F3F;
   display: flex;
   width: 211px;
-  flex-direction: row;
   align-items: center;
 }
 @media (max-width: 900px) {
@@ -101,7 +103,6 @@ a {
 .address {
   display: flex;
   align-items: center;
-  flex-direction: row;
   flex-wrap: nowrap;
   gap: 16px;
 }
@@ -111,10 +112,7 @@ a {
   }
 }
 .address__text {
-  font-family: "Manrope", sans-serif;
-  font-weight: 400;
   font-size: 14px;
-  color: #3F3F3F;
   display: block;
   width: 115px;
 }
@@ -133,7 +131,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
   gap: 8px;
 }
 @media (max-width: 900px) {
@@ -156,14 +153,12 @@ a {
   }
 }
 .telephone__title {
-  font-family: "Manrope", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 100%;
   color: #818181;
 }
 .telephone__text {
-  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 10px;
   color: #767676;
@@ -231,7 +226,6 @@ a {
 .box-for-mobile {
   display: flex;
   align-items: center;
-  flex-direction: row;
 }
 
 .burger-menu {
@@ -267,12 +261,10 @@ a {
   gap: 10px;
 }
 .burger-menu__link {
-  font-family: "Manrope", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 17px;
   text-align: left;
-  color: #3F3F3F;
 }
 
 summary {
@@ -343,7 +335,6 @@ summary::-webkit-details-marker {
   margin-top: 25.5px;
   display: flex;
   gap: 18px;
-  flex-direction: row;
   margin-bottom: -5px;
 }
 @media (max-width: 1160px) {
@@ -371,7 +362,6 @@ summary::-webkit-details-marker {
   }
 }
 .hero__top {
-  font-family: "Manrope", sans-serif;
   font-weight: 800;
   font-size: 35px;
   line-height: 200%;
@@ -387,7 +377,6 @@ summary::-webkit-details-marker {
   }
 }
 .hero__five {
-  font-family: "Manrope", sans-serif;
   font-weight: 800;
   font-size: 165px;
   line-height: 140px;
@@ -435,10 +424,8 @@ summary::-webkit-details-marker {
   }
 }
 .hero__star-text {
-  font-family: "Manrope", sans-serif;
   font-weight: 600;
   font-size: 19px;
-  color: #3F3F3F;
 }
 @media (max-width: 650px) {
   .hero__star-text {
@@ -465,7 +452,6 @@ summary::-webkit-details-marker {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
   gap: 11px;
   z-index: 5;
 }
@@ -477,7 +463,6 @@ summary::-webkit-details-marker {
   }
 }
 .hero__signature-name-text {
-  font-family: "Manrope", sans-serif;
   font-weight: 800;
   font-size: 16px;
   color: #E21F4D;
@@ -496,11 +481,9 @@ summary::-webkit-details-marker {
   width: 228px;
   height: 39px;
   background: #fff;
-  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 156%;
-  color: #3F3F3F;
 }
 @media (max-width: 650px) {
   .hero__signature-one-line {
@@ -513,11 +496,9 @@ summary::-webkit-details-marker {
   height: 37px;
   box-shadow: 0 13px 24px 0 rgba(0, 0, 0, 0.15);
   background: #fff;
-  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 156%;
-  color: #3F3F3F;
   margin-left: 24px;
   margin-top: -13px;
   padding-left: 23px;
@@ -534,7 +515,6 @@ summary::-webkit-details-marker {
   height: 47px;
   box-shadow: 0 13px 24px 0 rgba(0, 0, 0, 0.15);
   background: #fff;
-  font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 11px;
   color: #969696;
@@ -554,7 +534,6 @@ summary::-webkit-details-marker {
     margin-left: 6px;
     display: flex;
     content: "главный врач клиники";
-    font-family: "Manrope", sans-serif;
     font-weight: 600;
     font-size: 10px;
     color: rgba(63, 63, 63, 0.5);
@@ -568,11 +547,9 @@ summary::-webkit-details-marker {
   }
 }
 .hero__title {
-  font-family: "Manrope", sans-serif;
   font-weight: 800;
   font-size: 55px;
   line-height: 127%;
-  color: #3F3F3F;
   margin-bottom: 41px;
   margin-top: 53.5px;
   max-width: 656px;
@@ -593,11 +570,9 @@ summary::-webkit-details-marker {
   }
 }
 .hero__text {
-  font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
-  color: #3F3F3F;
   width: 425px;
   margin-left: 57px;
   margin-bottom: 31.5px;
@@ -671,10 +646,8 @@ summary::-webkit-details-marker {
   }
 }
 .hero__article-title {
-  font-family: "Manrope", sans-serif;
   font-weight: 600;
   font-size: 18px;
-  color: #3F3F3F;
 }
 @media (max-width: 650px) {
   .hero__article-title {
@@ -682,10 +655,8 @@ summary::-webkit-details-marker {
   }
 }
 .hero__article-text {
-  font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 13px;
-  color: #3F3F3F;
 }
 @media (max-width: 650px) {
   .hero__article-text {
@@ -829,17 +800,19 @@ summary::-webkit-details-marker {
     margin-bottom: 50px;
   }
 }
+.services__container {
+  position: relative;
+}
 .services__box {
   display: flex;
-  flex-direction: row;
   gap: 25px;
   width: 1555px;
-  position: relative;
 }
 @media (max-width: 650px) {
   .services__box {
     gap: 20px;
     width: 776px;
+    overflow-x: hidden;
   }
 }
 .services__link {
@@ -858,12 +831,10 @@ summary::-webkit-details-marker {
   }
 }
 .services__title {
-  font-family: "Manrope", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 133%;
   text-transform: uppercase;
-  color: #3F3F3F;
   max-width: 905px;
   margin-bottom: 50px;
 }
@@ -925,7 +896,6 @@ summary::-webkit-details-marker {
   border-radius: 351px;
   box-shadow: 0 15px 59px 0 rgba(0, 0, 0, 0.08);
   background: #fff;
-  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 14px;
   color: #E21F4D;
@@ -1094,10 +1064,8 @@ summary::-webkit-details-marker {
 }
 
 .service__title {
-  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 18px;
-  color: #3F3F3F;
   margin-bottom: 10px;
 }
 @media (max-width: 650px) {
@@ -1106,10 +1074,8 @@ summary::-webkit-details-marker {
   }
 }
 .service__text {
-  font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 13px;
-  color: #3F3F3F;
   margin-bottom: 20px;
 }
 @media (max-width: 650px) {
@@ -1119,7 +1085,6 @@ summary::-webkit-details-marker {
 }
 .service__links {
   display: flex;
-  flex-direction: row;
   align-items: center;
   gap: 17px;
 }
@@ -1136,7 +1101,6 @@ summary::-webkit-details-marker {
   height: 39px;
   box-shadow: inset 0 0 27px 4px rgba(255, 255, 255, 0.46);
   background: #E21F4D;
-  font-family: "Manrope", sans-serif;
   font-weight: 600;
   font-size: 14px;
   color: #fff;
@@ -1157,10 +1121,8 @@ summary::-webkit-details-marker {
   box-shadow: inset 0 0 27px 4px rgba(148, 148, 148, 0.15);
 }
 .service__link {
-  font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 13px;
-  color: #3F3F3F;
 }
 @media (max-width: 650px) {
   .service__link {
@@ -1248,11 +1210,9 @@ summary::-webkit-details-marker {
   }
 }
 .our-company-left__title {
-  font-family: "Manrope", sans-serif;
   font-weight: 600;
   font-size: 55px;
   line-height: 105%;
-  color: #3F3F3F;
   margin-bottom: 20px;
 }
 @media (max-width: 1100px) {
@@ -1268,10 +1228,8 @@ summary::-webkit-details-marker {
   }
 }
 .our-company-left__text {
-  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 18px;
-  color: #3F3F3F;
   margin-bottom: 33px;
 }
 @media (max-width: 650px) {
@@ -1331,12 +1289,10 @@ summary::-webkit-details-marker {
 }
 .our-company-right__title {
   margin-top: 32px;
-  font-family: "Manrope", sans-serif;
   font-weight: 800;
   font-size: 30px;
   line-height: 133%;
   text-transform: uppercase;
-  color: #3F3F3F;
   max-width: 433px;
   margin-left: -99px;
   margin-bottom: 20px;
@@ -1356,11 +1312,9 @@ summary::-webkit-details-marker {
   }
 }
 .our-company-right__text-one {
-  font-family: "Manrope", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 150%;
-  color: #3F3F3F;
   margin-bottom: 25px;
 }
 @media (max-width: 1100px) {
@@ -1377,11 +1331,9 @@ summary::-webkit-details-marker {
   }
 }
 .our-company-right__text-two {
-  font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
-  color: #3F3F3F;
 }
 @media (max-width: 1100px) {
   .our-company-right__text-two {
@@ -1428,7 +1380,6 @@ summary::-webkit-details-marker {
   height: 80px;
   box-shadow: inset 0 0 27px 4px rgba(255, 255, 255, 0.46);
   background: #E21F4D;
-  font-family: "Manrope", sans-serif;
   font-weight: 600;
   font-size: 18px;
   color: #fff;
@@ -1477,7 +1428,6 @@ summary::-webkit-details-marker {
 
 .employees-top {
   display: flex;
-  flex-direction: row;
   margin-left: 32px;
   justify-content: space-between;
 }
@@ -1512,12 +1462,10 @@ summary::-webkit-details-marker {
   }
 }
 .employees-top__title {
-  font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 133%;
   text-transform: uppercase;
-  color: #3F3F3F;
   max-width: 327px;
 }
 @media (max-width: 650px) {
@@ -1542,11 +1490,9 @@ summary::-webkit-details-marker {
   left: -13px;
 }
 .employees-top__text {
-  font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
-  color: #3F3F3F;
   margin-top: 28px;
 }
 
@@ -1568,7 +1514,6 @@ summary::-webkit-details-marker {
 }
 .employees__cards-box {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 25px;
@@ -1583,6 +1528,8 @@ summary::-webkit-details-marker {
   .employees__cards-box {
     flex-wrap: nowrap;
     justify-content: start;
+    width: 100vw;
+    overflow-x: hidden;
   }
 }
 .employees__card {
@@ -1611,10 +1558,8 @@ summary::-webkit-details-marker {
   }
 }
 .employees__card-name {
-  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 18px;
-  color: #3F3F3F;
   margin-bottom: 15px;
 }
 @media (max-width: 650px) {
@@ -1625,7 +1570,6 @@ summary::-webkit-details-marker {
   }
 }
 .employees__card-profession {
-  font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: #E21F4D;
@@ -1639,10 +1583,8 @@ summary::-webkit-details-marker {
   }
 }
 .employees__card-text {
-  font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 14px;
-  color: #3F3F3F;
   margin-bottom: 15px;
   max-width: 264px;
 }
@@ -1653,7 +1595,6 @@ summary::-webkit-details-marker {
   }
 }
 .employees__card-button {
-  font-family: "Manrope", sans-serif;
   font-weight: 600;
   font-size: 14px;
   text-align: center;
@@ -1689,6 +1630,7 @@ summary::-webkit-details-marker {
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  z-index: 10;
 }
 @media (max-width: 650px) {
   .employees__button-box {
@@ -1697,7 +1639,6 @@ summary::-webkit-details-marker {
   }
 }
 .employees__button {
-  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 16px;
   text-align: center;
@@ -1710,6 +1651,7 @@ summary::-webkit-details-marker {
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 5;
 }
 .employees__button:hover {
   box-shadow: inset 0 0 27px 4px rgba(148, 148, 148, 0.15);
@@ -1741,161 +1683,127 @@ summary::-webkit-details-marker {
 }
 
 .principles {
-  display: flex;
-  margin-top: 54px;
-  justify-content: space-between;
+  position: relative;
+  padding-top: 54px;
 }
 @media (max-width: 960px) {
   .principles {
-    justify-content: center;
+    background-image: none;
   }
 }
 
-.principles:hover .principles-left__star {
-  transform: scale(80%);
-}
-
-.principles-left {
-  position: relative;
+.principles-image {
+  position: absolute;
+  width: 1131px;
+  top: -138px;
+  left: calc(50% - 895px);
+  z-index: 1;
 }
 @media (max-width: 1160px) {
-  .principles-left {
-    max-width: 450px;
-    margin-top: 100px;
+  .principles-image {
+    left: calc(50% - 790px);
   }
 }
-@media (max-width: 960px) {
-  .principles-left {
+@media (max-width: 900px) {
+  .principles-image {
     display: none;
   }
 }
-.principles-left__circle {
+
+.principles-star {
   position: absolute;
-  z-index: -3;
-  left: -282px;
-  top: -193px;
-  max-width: 1131px;
-}
-.principles-left__star {
-  max-width: 862px;
-  position: absolute;
-  top: 22px;
-  left: -91px;
+  top: 67px;
+  left: calc(50% - 704px);
   transition: 1s;
+  z-index: 1;
 }
 @media (max-width: 1160px) {
-  .principles-left__star {
-    max-width: 450px;
-    top: 40px;
-    left: 0px;
+  .principles-star {
+    left: calc(50% - 550px);
   }
 }
-.principles-left__img {
-  max-width: 566px;
-}
-@media (max-width: 1160px) {
-  .principles-left__img {
-    max-width: 450px;
+@media (max-width: 900px) {
+  .principles-star {
+    display: none;
   }
 }
 
-.princeples-right {
-  display: flex;
-  flex-direction: column;
+.princeples-content {
+  max-width: 575px;
   position: relative;
+  left: 50%;
+  z-index: 3;
 }
-@media (max-width: 960px) {
-  .princeples-right {
-    align-items: center;
+@media (max-width: 900px) {
+  .princeples-content {
+    left: calc(50% - 225px);
   }
 }
 @media (max-width: 650px) {
-  .princeples-right {
-    align-items: start;
+  .princeples-content {
+    left: calc(50% - 150px);
   }
 }
-.princeples-right__title-box {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: start;
-  margin-left: -100px;
-  margin-bottom: 30px;
+.princeples-content__link {
+  padding: 14px 34px;
+  display: inline-block;
+  border: 1px solid transparent;
 }
-@media (max-width: 960px) {
-  .princeples-right__title-box {
-    margin-left: 0px;
-  }
-}
-@media (max-width: 650px) {
-  .princeples-right__title-box {
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-}
-.princeples-right__link {
-  width: 177px;
-  height: 46px;
-}
-@media (max-width: 650px) {
-  .princeples-right__link {
-    width: 109px;
-    height: 30px;
-  }
-}
-.princeples-right__title {
-  font-family: "Manrope", sans-serif;
+.princeples-content__title {
+  padding: 30px 0;
   font-weight: 400;
   font-size: 30px;
   text-transform: uppercase;
-  color: #3F3F3F;
   width: 575px;
 }
+@media (max-width: 1160px) {
+  .princeples-content__title {
+    max-width: 450px;
+  }
+}
 @media (max-width: 650px) {
-  .princeples-right__title {
+  .princeples-content__title {
     font-size: 16px;
     max-width: 240px;
   }
 }
-.princeples-right__star {
-  position: absolute;
-  width: 30px;
-  height: 27px;
-  top: 13px;
-  left: 390px;
-}
-@media (max-width: 650px) {
-  .princeples-right__star {
-    display: none;
-  }
-}
-.princeples-right__cards-box {
+.princeples-content__cards-box {
   display: flex;
   flex-direction: column;
   gap: 20px;
   margin-bottom: 29px;
+  padding-left: 99px;
+}
+@media (max-width: 1160px) {
+  .princeples-content__cards-box {
+    padding-left: 0;
+  }
 }
 @media (max-width: 650px) {
-  .princeples-right__cards-box {
+  .princeples-content__cards-box {
     gap: 22px;
     margin-bottom: 50px;
   }
 }
-.princeples-right__card {
+.princeples-content__card {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: start;
   gap: 20px;
   border-radius: 11px;
-  width: 400px;
-  height: 80px;
+  max-width: 400px;
+  min-height: 80px;
   box-shadow: 0 15px 59px 0 rgba(0, 0, 0, 0.08);
   background: #fff;
   padding: 10px 44px 10px 20px;
 }
+@media (max-width: 1160px) {
+  .princeples-content__card {
+    padding: 10px 10px 10px 10px;
+  }
+}
 @media (max-width: 650px) {
-  .princeples-right__card {
+  .princeples-content__card {
     flex-direction: column;
     gap: 0;
     border-radius: 7px;
@@ -1907,12 +1815,12 @@ summary::-webkit-details-marker {
     padding: 25px 21px 15px 20px;
   }
 }
-.princeples-right__icon {
+.princeples-content__icon {
   width: 60px;
   height: 60px;
 }
 @media (max-width: 650px) {
-  .princeples-right__icon {
+  .princeples-content__icon {
     width: 26px;
     height: 25px;
     position: absolute;
@@ -1922,19 +1830,268 @@ summary::-webkit-details-marker {
     border-radius: 100%;
   }
 }
-.princeples-right__text {
-  font-family: "Manrope", sans-serif;
+.princeples-content__text {
   font-weight: 400;
   font-size: 11px;
-  color: #3F3F3F;
 }
 @media (max-width: 650px) {
-  .princeples-right__text {
+  .princeples-content__text {
     font-size: 10px;
   }
 }
 @media (max-width: 650px) {
-  .princeples-right__button {
+  .princeples-content__button {
     display: none;
   }
+}
+
+.reviews-background {
+  margin: 0 auto;
+  border-radius: 50px;
+  max-width: 1490px;
+  background: #f5f5f5;
+  position: relative;
+  padding: 64px 5px 34px 5px;
+}
+@media (max-width: 650px) {
+  .reviews-background {
+    padding: 0;
+  }
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 650px) {
+  .reviews {
+    position: relative;
+  }
+}
+
+.reviews-head {
+  display: flex;
+  max-width: 906px;
+  justify-content: space-between;
+}
+
+.reviews-head-left {
+  z-index: 3;
+}
+.reviews-head-left__link {
+  width: 177px;
+  height: 46px;
+  margin-bottom: 20px;
+  z-index: 2;
+  position: relative;
+}
+@media (max-width: 650px) {
+  .reviews-head-left__link {
+    width: 69px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+}
+.reviews-head-left__title {
+  max-width: 436px;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+@media (max-width: 650px) {
+  .reviews-head-left__title {
+    font-size: 16px;
+  }
+}
+.reviews-head-left__link-mobile {
+  display: none;
+}
+.reviews-head-left__nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+@media (max-width: 650px) {
+  .reviews-head-left__nav {
+    justify-self: start;
+    gap: 0;
+  }
+}
+.reviews-head-left__li {
+  list-style-type: none;
+  margin-bottom: 50px;
+}
+@media (max-width: 650px) {
+  .reviews-head-left__li {
+    margin-bottom: 20px;
+  }
+}
+.reviews-head-left__link {
+  font-weight: 400;
+  font-size: 14px;
+}
+@media (max-width: 650px) {
+  .reviews-head-left__link {
+    font-size: 6px;
+    padding: 7px 15px;
+    border: 0.86px solid rgba(0, 0, 0, 0.1);
+    border-radius: 132px;
+    box-shadow: 0 6px 22px 0 rgba(0, 0, 0, 0.08);
+    margin-right: 10px;
+    background-color: #f5f5f5;
+  }
+}
+@media (max-width: 650px) {
+  .reviews-head-left__link:last-child() {
+    margin-right: 0;
+  }
+}
+
+.active {
+  background: #fff;
+  border: #fff;
+}
+
+.reviews-head-right {
+  margin-top: 66px;
+}
+@media (max-width: 650px) {
+  .reviews-head-right {
+    position: absolute;
+    top: 300px;
+  }
+}
+.reviews-head-right__text {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+@media (max-width: 650px) {
+  .reviews-head-right__text {
+    font-size: 12px;
+  }
+}
+.reviews-head-right__icon-box {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+.reviews-head-right__link {
+  border-radius: 100%;
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 13px 24px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.visible-mobile {
+  display: none;
+}
+@media (max-width: 650px) {
+  .visible-mobile {
+    display: block;
+  }
+}
+
+.reviews-main {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 650px) {
+  .reviews-main {
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+.reviews-main__player-box {
+  position: relative;
+  border-radius: 10px;
+  width: 100%;
+  background-image: url(../img/video-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 182px;
+}
+.reviews-main__player {
+  max-width: 100%;
+}
+.reviews-main__video-play {
+  position: absolute;
+  max-width: 206px;
+  top: calc(50% - 108px);
+  left: calc(50% - 103px);
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 650px) {
+  .reviews-main__video-play {
+    max-width: 60px;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+  }
+}
+.reviews-main__play-img {
+  width: 100%;
+}
+.reviews-main__video-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: -52px;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1030px) {
+  .reviews-main__video-box {
+    margin-top: 0;
+  }
+}
+@media (max-width: 650px) {
+  .reviews-main__video-box {
+    display: none;
+  }
+}
+.reviews-main__arrow {
+  width: 43px;
+  height: 43px;
+}
+.reviews-main__arrow:hover {
+  border-radius: 100%;
+  box-shadow: 0 12px 45px 0 rgba(0, 0, 0, 0.174);
+}
+.reviews-main__preview-box {
+  width: 211px;
+  height: 72px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.reviews-main__preview {
+  border-radius: 100%;
+  padding: 6px;
+  background-color: #fff;
+}
+.reviews-main__preview-name {
+  font-size: 14px;
+}
+.reviews-main__preview-city {
+  font-weight: 400;
+  font-size: 11px;
+  color: rgba(63, 63, 63, 0.6);
+}
+
+.border-color-main {
+  border: 1px solid #E21F4D;
 }/*# sourceMappingURL=style.css.map */
