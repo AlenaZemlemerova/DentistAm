@@ -1856,10 +1856,11 @@ summary::-webkit-details-marker {
 .reviews {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
 
     @media (max-width: 650px) {
         position: relative;
+        height: 868px;
     }
 
 }
@@ -1900,7 +1901,10 @@ summary::-webkit-details-marker {
     }
 
     &__link-mobile {
-        display: none;
+        @media (max-width: 650px) {
+            display: none;   
+        }
+    
     }
 
     &__nav {
@@ -1946,8 +1950,10 @@ summary::-webkit-details-marker {
 }
 
 .active {
-    background: #fff;
-    border: #fff;
+    @media (max-width: 650px) {
+        background: #fff;
+        border: #fff;  
+    }   
 }
 
 .reviews-head-right {
@@ -1955,7 +1961,7 @@ summary::-webkit-details-marker {
 
     @media (max-width: 650px) {
         position: absolute;
-        top: 300px;
+        top: 690px;
     }
 
     &__text {
@@ -1972,6 +1978,10 @@ summary::-webkit-details-marker {
         display: flex;
         justify-content: start;
         gap: 20px;
+
+        @media (max-width: 650px) {
+            gap: 23.08px;
+        }
     }
 
     &__link {
@@ -2000,7 +2010,8 @@ summary::-webkit-details-marker {
     justify-content: space-between;
 
     @media (max-width: 650px) {
-        justify-content: center;
+        align-items: center;
+        justify-content: start;
         flex-direction: column;
         gap: 10px;
     }
@@ -2008,12 +2019,14 @@ summary::-webkit-details-marker {
     &__player-box {
         position: relative;
         border-radius: 10px;
+        max-width: 792px;
         width: 100%;
         background-image: url(../img/video-img.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         min-height: 182px;
+        max-height: 482px;
     }
 
     &__player {
@@ -2097,4 +2110,186 @@ summary::-webkit-details-marker {
 
 .border-color-main {
     border: 1px solid $colorMain;
+}
+
+.load-more {
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 10px;
+    color: $colorMain;
+    border-bottom: 1px dashed $colorMain;
+    max-width: 92px;
+    padding: 6px 0;
+
+    &__icon {
+        vertical-align: bottom;
+        margin-left: 3.4px;
+    }
+}
+
+// license
+
+.license {
+    width: 100%;
+    height: 618px;
+    background-image: url(../img/license-img.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% - 315.5px) -325px;
+
+    @media (max-width: 650px) {
+        background-image: url(../img/license-img-mobile.png);
+        background-position: center;
+        height: 610px;
+    }
+
+    &__link {
+        max-width: 118px;
+        display: block;
+        position: relative;
+        top: 244px;
+        left: calc(50% - 159px);
+        font-weight: 400;
+        font-size: 11px;
+        color: #8f8f8f;
+        z-index: 5;
+
+        @media (max-width: 900px) {
+            left: calc(50% - 200px);
+        }
+
+        @media (max-width: 650px) {
+            max-width: 71px;
+            top: 300px;
+            left: calc(50% - 135px);
+            color: $colorMain;
+            display: inline-block;
+            text-decoration: underline dashed;
+        }
+    }
+
+    &__link-icon {
+        margin-right: 7px;
+        margin-left: -20px;
+        @media (max-width: 650px) {
+            margin: 0 -11px 11px 0;
+        }
+    }
+
+    &__link-icon path {
+        @media (max-width: 650px) {
+            fill: $colorMain;
+            width: 14;
+            height: 14; 
+        }
+        
+    }
+}
+
+.license-content {
+    max-width: 546px;
+    position: relative;
+    left: 50%;
+    top: 64px;
+
+    @media (max-width: 900px) {
+        left: 40%;
+    }
+
+    @media (max-width: 650px) {
+        max-width: 282px;
+        left: calc(50% - 282px/2);
+        top: 0;
+    }
+
+    &__link {
+        width: 177px;
+        height: 46px;
+        margin-bottom: 20px;
+
+        @media (max-width: 650px) {
+            width: 80px;
+            height: 30px;
+            margin-bottom: 10px;
+        }
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 133%;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+
+        @media (max-width: 650px) {
+            font-size: 16px;
+            line-height: 125%;
+            margin-bottom: 10px;
+        }
+    }
+
+    &__text-box {
+        padding-left: 100px;
+        max-width: 547px;
+
+        @media (max-width: 1160px) {
+            padding-left: 0;
+            max-width: 400px;
+        }
+        @media (max-width: 720px) {
+            padding-left: 0;
+            max-width: 350px;
+        }
+
+        @media (max-width: 650px) {
+            max-width: 282px;
+        }
+
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        position: relative;
+        margin-bottom: 45px;
+
+        @media (max-width: 650px) {
+            font-size: 11px;
+            margin-bottom: 266px;
+        }
+    }
+
+
+    &__company-card {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__text-plus {
+        position: absolute;
+        top: -5px;
+        left: -15px;
+
+        @media (max-width: 650px) {
+            width: 7.44px;
+            height: 8.55px;
+            top: -4px;
+            left: -10px;
+        }
+    }
+
+    &__button {
+        margin-top: 40px;
+    }
+}
+
+.entity {
+    font-size: 13px;
+    margin-bottom: 0;
+    max-width: 227px;
+
+    @media (max-width: 650px) {
+        font-size: 10px;
+        max-width: 141px;
+    }
 }
