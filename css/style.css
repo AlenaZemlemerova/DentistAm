@@ -29,9 +29,9 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .container {
-  max-width: 1280px;
-  padding-left: 40px;
-  padding-right: 40px;
+  max-width: 1250px;
+  padding-left: 25px;
+  padding-right: 25px;
   margin: 0 auto;
 }
 @media (max-width: 650px) {
@@ -321,7 +321,6 @@ summary::-webkit-details-marker {
   background-image: url("../img/hero-background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -10;
   overflow: hidden;
 }
 @media (max-width: 650px) {
@@ -331,18 +330,26 @@ summary::-webkit-details-marker {
   }
 }
 
+@media (max-width: 650px) {
+  #hero {
+    width: 100vw;
+    overflow: hidden;
+  }
+}
+
 .hero {
-  margin-top: 25.5px;
+  padding-top: 25.5px;
   display: flex;
   gap: 18px;
-  margin-bottom: -5px;
 }
 @media (max-width: 1160px) {
   .hero {
-    margin-top: 16px;
+    padding-top: 16px;
     gap: 10px;
     flex-direction: column-reverse;
     align-items: center;
+    justify-content: start;
+    height: 696px;
   }
 }
 .hero__left-box {
@@ -354,7 +361,7 @@ summary::-webkit-details-marker {
   position: absolute;
   top: 170px;
   left: 0;
-  z-index: -1;
+  z-index: 1;
 }
 @media (max-width: 650px) {
   .hero__text-backgroung {
@@ -384,6 +391,7 @@ summary::-webkit-details-marker {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  z-index: 1;
 }
 @media (max-width: 650px) {
   .hero__five {
@@ -393,6 +401,8 @@ summary::-webkit-details-marker {
 }
 .hero__photo {
   max-width: 493px;
+  position: relative;
+  z-index: 2;
 }
 @media (max-width: 650px) {
   .hero__photo {
@@ -407,6 +417,7 @@ summary::-webkit-details-marker {
   justify-content: center;
   flex-direction: column;
   width: 102px;
+  z-index: 3;
 }
 @media (max-width: 650px) {
   .hero__raiting {
@@ -436,6 +447,7 @@ summary::-webkit-details-marker {
   position: absolute;
   top: 506.5px;
   right: 72px;
+  z-index: 4;
 }
 @media (max-width: 650px) {
   .hero__signature-box {
@@ -594,6 +606,7 @@ summary::-webkit-details-marker {
 .hero__button {
   margin-left: 57px;
   margin-bottom: 40px;
+  z-index: 6;
 }
 @media (max-width: 650px) {
   .hero__button {
@@ -624,9 +637,9 @@ summary::-webkit-details-marker {
 @media (max-width: 650px) {
   .hero__article {
     margin-left: 42px;
-    position: absolute;
+    z-index: 7;
     border-radius: 5px;
-    top: 494px;
+    top: 230px;
     width: 217px;
     height: 152px;
     padding: 32px 20px 10px 20px;
@@ -726,7 +739,7 @@ summary::-webkit-details-marker {
 @media (max-width: 650px) {
   .background-circle {
     width: 383.5px;
-    left: -70px;
+    left: calc(50% - 192px);
     top: 0px;
   }
 }
@@ -741,7 +754,7 @@ summary::-webkit-details-marker {
   .arrow {
     top: 60px;
     right: -25px;
-    padding: 10px 12px;
+    padding: 7px 12px;
     box-shadow: 0 14px 53px 0 rgba(0, 0, 0, 0.08);
   }
 }
@@ -793,11 +806,14 @@ summary::-webkit-details-marker {
 .services {
   margin-top: 50px;
   margin-bottom: 104px;
+  width: 100vw;
+  overflow-x: hidden;
 }
 @media (max-width: 650px) {
   .services {
-    margin-top: 220px;
-    margin-bottom: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 531px;
   }
 }
 .services__container {
@@ -1181,8 +1197,8 @@ summary::-webkit-details-marker {
 }
 @media (max-width: 650px) {
   .our-company {
-    margin-top: 90px;
-    margin-bottom: 90px;
+    justify-content: start;
+    height: 520px;
   }
 }
 
@@ -1508,6 +1524,8 @@ summary::-webkit-details-marker {
 }
 @media (max-width: 650px) {
   .employees {
+    width: 100vw;
+    overflow: hidden;
     background: none;
     padding: 0;
   }
@@ -1528,8 +1546,6 @@ summary::-webkit-details-marker {
   .employees__cards-box {
     flex-wrap: nowrap;
     justify-content: start;
-    width: 100vw;
-    overflow-x: hidden;
   }
 }
 .employees__card {
@@ -1689,6 +1705,7 @@ summary::-webkit-details-marker {
 @media (max-width: 960px) {
   .principles {
     background-image: none;
+    padding-top: 50px;
   }
 }
 
@@ -1741,6 +1758,7 @@ summary::-webkit-details-marker {
 }
 @media (max-width: 650px) {
   .princeples-content {
+    max-width: 300px;
     left: calc(50% - 150px);
   }
 }
@@ -2108,6 +2126,7 @@ summary::-webkit-details-marker {
 }
 .reviews-main__preview-name {
   font-size: 14px;
+  width: 94px;
 }
 .reviews-main__preview-city {
   font-weight: 400;
